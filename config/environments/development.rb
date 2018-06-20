@@ -54,6 +54,6 @@ Rails.application.configure do
   
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :test
-  host = 'rails-tutorial-mhartl.c9users.io'  # ここをコピペすると失敗します。自分の環境に合わせてください。
+  host = 'ebbd55983eae4677965128be204ed507.vfs.cloud9.us-east-2.amazonaws.com'  # ここをコピペすると失敗します。自分の環境に合わせてください。
   config.action_mailer.default_url_options = { host: host, protocol: 'https' }
 end
